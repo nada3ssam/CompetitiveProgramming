@@ -14,11 +14,6 @@ void Fast()
 int main()
 {
 	Fast();
-	ll n,x,c=0;
-	cin>>n>>x;
-	for (ll i = 1; i <= n; i++)
-		if(x<=(n*i) && x%i==0)
-			c++;
-	cout<<c<<endl;
+	
 	return 0;
 }
